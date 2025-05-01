@@ -1,0 +1,11 @@
+INSERT INTO meetings (MeetingID, Title, StartTime, EndTime, DurationMinutes, HostName, Participants) VALUES
+(1001, 'All hands with Suchishree', '2025-04-11 13:00', '2025-04-11 14:30', 90, 'Suchishree', 'Suchishree,John,Alice,Bob,Charlie,David,Hannah'),
+(1002, 'Risk awareness session', '2025-04-14 13:00', '2025-04-14 14:00', 60, 'David', 'Eve,Bob,Hannah,Charlie,Alice,David'),
+(1003, 'GRHT Team recognition event', '2025-04-15 11:00', '2025-04-15 12:00', 60, 'Hannah', 'John,Bob,Eve,Alice,Hannah,Charlie'),
+(1004, 'Leadership connect', '2025-04-12 15:00', '2025-04-12 15:30', 30, 'Charlie', 'John,Hannah,Charlie,David,Alice,Bob'),
+(1005, 'Daily Stand Up', '2025-04-13 20:00', '2025-04-13 20:30', 30, 'John', 'Bob,Charlie,David,Alice'),
+(1006, 'Sprint Kick-off', '2025-04-20 16:00', '2025-04-20 17:00', 60, 'Bob', 'Alice,Charlie,David,Bob,Hannah'),
+(1007, 'Hackathon overview for 2024 batch', '2025-04-22 16:00', '2025-04-22 17:00', 60, 'Alice', 'Alice,John,Charlie,Bob,Eve,Hannah'),
+(1008, 'CG Hackathon-Initial catch up', '2025-04-23 16:00', '2025-04-23 17:00', 60, 'Eve', 'Charlie,Bob,Alice,Eve,Hannah,John,David'),
+(1009, 'EEDAT-positive risk culture', '2025-04-25 16:00', '2025-04-25 16:30', 30, 'John', 'David,Eve,Hannah,Charlie,Bob'),
+(1010, 'Investment proofs submission FY 2024-25', '2025-04-25 18:00', '2025-04-25 19:00', 60, 'Alice', 'John,Charlie,Alice,Eve');
