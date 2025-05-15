@@ -1,0 +1,37 @@
+Sure! Below are the SQL INSERT statements with realistic timestamps for each agenda item across the three conversations. Each agenda item is treated as a separate row with a timestamp reflecting the sequence in which it likely occurred.
+
+Assumptions:
+
+Table: meeting_agenda
+
+Columns: meeting_id, agenda_item, timestamp
+
+Meeting IDs: 1001 (Credit Card Support), 1002 (Loan Services), 1003 (Technical Support)
+
+Format: YYYY-MM-DD HH:MM:SS
+
+
+
+---
+
+-- Meeting 1001: Credit Card Fraud Report
+INSERT INTO meeting_agenda (meeting_id, agenda_item, timestamp) VALUES
+(1001, 'Customer Verification', '2025-05-15 14:46:00'),
+(1001, 'Fraudulent Transaction Inquiry', '2025-05-15 14:46:45'),
+(1001, 'Fraud Case Action', '2025-05-15 14:47:30'),
+(1001, 'Next Steps & Card Replacement', '2025-05-15 14:48:15');
+
+-- Meeting 1002: Loan Payment Assistance
+INSERT INTO meeting_agenda (meeting_id, agenda_item, timestamp) VALUES
+(1002, 'Customer Verification', '2025-05-15 14:47:00'),
+(1002, 'Financial Hardship Discussion', '2025-05-15 14:47:40'),
+(1002, 'Hardship Program Enrollment', '2025-05-15 14:48:25');
+
+-- Meeting 1003: Online Banking Login Issue
+INSERT INTO meeting_agenda (meeting_id, agenda_item, timestamp) VALUES
+(1003, 'Account Verification & Login Issue Description', '2025-05-15 14:49:00'),
+(1003, 'Password Reset & Face ID Reconfiguration', '2025-05-15 14:49:45'),
+(1003, 'Performance Query & Resolution', '2025-05-15 14:50:20');
+
+Let me know if you'd like to include other columns like agenda_id, created_at, or updated_at.
+
